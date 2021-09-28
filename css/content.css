@@ -1382,3 +1382,7 @@ section.container-fluid.not-found--section {
         margin-bottom: 20px;
     }
 }
+
+.section-left--product-list-block {
+    width: 100%;
+}
