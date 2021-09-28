@@ -100,7 +100,12 @@ a.footer--app-img {
 .mobile-navigation--section {
     display: none;
 }
-
+@media (max-width: 768px) {
+    .mobile-navigation--section.container-fluid
+    {
+        height: 52px;
+    }
+}
 @media (max-width: 991px) {
     .mobile-navigation--section {
         display: block;
@@ -268,4 +273,7 @@ html {
     .menu{
         font-size: .8em;
     }
+}
+a.menu__item.active svg {
+    stroke: white;
 }

@@ -219,6 +219,8 @@ body li.mobile-menu--child-inner-item a  {
 body li.mobile-menu--child-inner-item a:not(.back)  {
     color: #525252 !important;
     display: -webkit-box;
+    font-size: 15px;
+    font-weight: bold;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -227,10 +229,11 @@ body li.mobile-menu--child-inner-item a:not(.back)  {
 .mobile-menu--link-block {
     cursor: pointer;
     padding-right: 5px !important;
-    padding: 15px 20px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .mobile-menu--link-block.mobile-menu--back-btn {

@@ -80,6 +80,7 @@ a, a.hover {
 }
 .font--14-grey-sale {
     font-size: 14px;
+    white-space: nowrap;
     color: #b6b6b6;
     text-decoration: line-through;
 }
