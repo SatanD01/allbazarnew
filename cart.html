@@ -436,16 +436,16 @@
             <div class="menu--burger-block"></div>
         </a>
         <div class="logo--img-block">
-            <a href="#">
+            <a href="index.html">
                 ALLBAZAR.UZ
             </a>
         </div>
         <div class="header--link-items-block">
-            <a href="#" class="header--link-item font--14">
-                <span class="material-icons font--25-white">room</span>
-                Адрес
+            <a href="delivery-payment.html" class="header--link-item font--14">
+                <span class="material-icons font--25-white">local_shipping</span>
+                Оплата и доставка
             </a>
-            <a href="#" class="header--link-item font--14">
+            <a href="login.html" class="header--link-item font--14">
                 <span class="material-icons font--25-white">person</span>
                 Войти
             </a>
@@ -467,7 +467,7 @@
 <!--main start-->
 <main>
     <section class="container-fluid content--header-section">
-        <a href="#" class="button button--mimas"><span>Назад</span></a>
+        <a href="index.html" class="button button--mimas"><span>Назад</span></a>
         <div class="content--bread-crumbs-block font--14-grey">
             <a href="#">Главная</a>
             /
@@ -631,11 +631,11 @@
             <div class="section-right--number-block">
                 <div class="section-right--name-input">
                     <span class="font--14-black">Имя <sup>*</sup></span>
-                    <input type="text" value="" autocomplete="off" required="" name="order[name]">
+                    <input type="text" class="form-control" value="" autocomplete="off" required="" name="order[name]">
                 </div>
                 <div class="section-right--number-input">
                     <span class="font--14-black">Телефон<sup>**</sup></span>
-                    <input type="text" value="+998 9" autocomplete="off" required=""
+                    <input type="text" value="+998 9" class="form-control"  autocomplete="off" required=""
                            name="phone" class="makePhone">
                 </div>
             </div>
@@ -675,7 +675,7 @@
             <div class="section-right--location-block">
                 <div class="location-block--district">
                     <span class="font--14-black">Район <sup>*</sup></span>
-                    <select required="" name="order[district]">
+                    <select required="" class="form-select form-select-sm" aria-label=".form-select-sm example"  name="order[district]">
                         <option value="">- выбрать -</option>
                         <option value="Сергелийский">Сергелийский</option>
                         <option value="Мирзо-Улугбекский">Мирзо-Улугбекский</option>
@@ -698,11 +698,11 @@
                 </div>
                 <div class="location-block--address">
                     <span>Адрес <sup>*</sup></span>
-                    <input type="text">
+                    <input type="text" class="form-control" >
                 </div>
                 <div class="location-block-comment">
                     <span>Комментарий к заказу</span>
-                    <textarea type="text"> </textarea>
+                    <textarea type="text"  class="form-control" > </textarea>
                 </div>
             </div>
             <div class="buy-accept--block">
