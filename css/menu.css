@@ -118,6 +118,7 @@ li.mobile-menu--parent-item  {
 ul.mobile-menu--inner-main-container  {
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (2fr)[4];
     grid-template-columns: repeat(4, 2fr);
     padding: 0;
     grid-auto-rows: 125px;
@@ -230,16 +231,26 @@ body li.mobile-menu--child-inner-item a:not(.back)  {
     cursor: pointer;
     padding-right: 5px !important;
     padding: 10px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-bottom: 1px solid #f0f0f0;
 }
 
 .mobile-menu--link-block.mobile-menu--back-btn {
     border-bottom: 1px solid black;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 a.back.link.link--metis {
@@ -247,7 +258,8 @@ a.back.link.link--metis {
 }
 
 .back.link--metis:hover::before {
-    transform: scale3d(1, 0.3, 1);
+    -webkit-transform: scale3d(1, 0.3, 1);
+            transform: scale3d(1, 0.3, 1);
 }
 
 .mobile-menu--link-block.mobile-menu--back-btn > span {
@@ -291,6 +303,7 @@ a.back.link.link--metis {
     ul.mobile-menu--inner-main-container  {
         display: -ms-grid;
         display: grid;
+        -ms-grid-columns: (6fr)[2];
         grid-template-columns: repeat(2, 6fr);
         padding: 0;
         grid-auto-rows: 195px;
