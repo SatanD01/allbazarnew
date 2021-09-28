@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 body {
     background: rgb(44,81,231);
-    background: -webkit-gradient(
-            linear, left bottom, left top, from(rgba(44,81,231,1)), color-stop(50%, rgba(44,81,231,1)), color-stop(95%, rgba(27,200,214,1)), to(rgba(44,81,231,1)));
     background: -o-linear-gradient(
             bottom, rgba(44,81,231,1) 0%, rgba(44,81,231,1)  50%, rgba(27,200,214,1) 95%, rgba(44,81,231,1) 100%);
+    background: -webkit-gradient(
+            linear, left bottom, left top, from(rgba(44,81,231,1)), color-stop(50%, rgba(44,81,231,1)), color-stop(95%, rgba(27,200,214,1)), to(rgba(44,81,231,1)));
     background: linear-gradient(
             0deg, rgba(44,81,231,1) 0%, rgba(44,81,231,1)  50%, rgba(27,200,214,1) 95%, rgba(44,81,231,1) 100%);
     font-family: 'Roboto', sans-serif;
