@@ -972,7 +972,8 @@ body .card-pay > label span {
     background-color: white;
 }
 
-button.map-btn--show {
+.map-btn--show {
+    cursor: pointer;
     background: white;
     border: 1px solid #2c51e7;
     border-radius: 1rem;
@@ -1217,7 +1218,7 @@ span.delivery-pay--description {
     font-size: 14px;
 }
 
-button.map-btn--show:hover {
+.map-btn--show:hover {
     color: white;
     background-color: #2c51e7;
     transition: 0.2s;
